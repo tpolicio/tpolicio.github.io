@@ -1,50 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Indicadores del Sector Cultura</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de Micaela Bastidas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar">
-    <div class="navbar-toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+    <div class="chat-container">
+        <div id="chatbox">
+            <h5 class="chat-log" id="chat-log"></h5>
+        </div>
+        <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí...">
+        <button onclick="sendMessage()">Enviar</button>
     </div>
-    <ul class="navbar-menu" id="navbar-menu">
-        <li><a href="#">Inicio</a></li>
-        <li class="menu-dropdown">
-            <a href="#">Gestión</a>
-        </li>
-        <li class="menu-dropdown">
-           <a href="patrimonio.html">Patrimonio Cultural</a>
-        </li>
-        <li class="menu-dropdown">
-            <a href="#">Industrias Culturales y Artes</a>
-        </li>
-        <li class="menu-dropdown">
-            <a href="#">Interculturalidad</a>
-        </li>
-        <li class="menu-dropdown">
-            <a href="#">Intervenciones Prioritarias</a>
-            </ul>
-        </li>
-    </ul>
-</nav>
-<header>
-    <h1>Indicadores del Sector Cultura12</h1>
-</header>
-<main>
-    <article>
-        <h2><strong>Presentación</strong></h2>
-        <p>En1 este portal encontrará el reporte de los principales indicadores del sector cultura, procesados por la Unidad de Estudios Económicos del Ministerio de Cultura. Este sitio está en constante actualización. La utilidad de este sitio web es que pueda contribuir a fortalecer la gestión basada en datos y evidencia.</p>
-    </article>
-</main>
-<footer>
-    <p>&copy; 2023 Unidad de Estudios Económicos - MC</p>
-</footer>
-<script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
+
