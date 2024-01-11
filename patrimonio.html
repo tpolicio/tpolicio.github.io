@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de Micaela Bastidas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="navbar">
-    <a class="active" href="#">mapa</a>
-    <a href="#">azul</a>
-    <a href="#">verde</a>
-  </div>
+    <div class="chat-container">
+        <div id="chatbox">
+            <h5 class="chat-log" id="chat-log"></h5>
+        </div>
+        <input type="text" id="userInput" placeholder="Escribe tu pregunta aquí...">
+        <button onclick="sendMessage()">Enviar</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
 
