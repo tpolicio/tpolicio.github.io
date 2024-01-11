@@ -20,6 +20,14 @@ body {
     flex-direction: column;
 }
 
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+
 #chatbox {
     flex-grow: 1;
     padding: 20px;
